@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b90386c6-07a2-47ff-a5f0-9e89aff76443" name="Default Changelist" comment="" />
+    <list default="true" id="b90386c6-07a2-47ff-a5f0-9e89aff76443" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/annotation/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/annotation/RpcServerScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServerScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/config/RpcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/config/RpcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/factory/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/factory/ServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/HeartBeatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/HeartBeatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/HeartBeatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/HeartBeatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/PingMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/PingMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/RpcRequestMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/RpcRequestMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/RpcResponseMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/RpcResponseMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/manager/RpcClientManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/manager/RpcServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcServiceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/PingMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/PingMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/PongMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/PongMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/RpcRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/RpcRequestMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/RpcResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/RpcResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/protocol/MessageCodecSharable.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/protocol/MessageCodecSharable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/protocol/ProtocolFrameDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/protocol/ProtocolFrameDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/serialize/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/serialize/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/utils/PackageScanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/utils/PackageScanUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +41,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xFyjHEsLMhtJD6K3auDRG4vQH0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,9 +56,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\网页\mini-rpc\rpc-assem" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629965264309</updated>
-      <workItem from="1629965267017" duration="10035000" />
+      <workItem from="1629965267017" duration="10250000" />
+      <workItem from="1630220237683" duration="5320000" />
     </task>
     <servers />
   </component>
@@ -54,18 +94,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="0" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1629966833725" />
-    <state x="306" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1629973188903">
+    <state x="306" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1630225241792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="306" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1629973188903" />
-    <state x="535" y="67" key="SettingsEditor" timestamp="1629967171563">
+    <state x="306" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1630225241792" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1630220277275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="535" y="67" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1629967171563" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630220277275" />
+    <state x="535" y="67" key="SettingsEditor" timestamp="1630220662379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="67" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1630220662379" />
     <state x="796" y="127" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1629966366104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="796" y="127" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1629966366104" />
+    <state x="356" y="126" key="new project wizard" timestamp="1630225497555">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="126" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1630225497555" />
+    <state x="895" y="48" key="refactoring.ChangeSignatureDialog" timestamp="1630224139524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="895" y="48" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1630224139524" />
     <state x="834" y="106" width="672" height="678" key="search.everywhere.popup" timestamp="1629970303847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
