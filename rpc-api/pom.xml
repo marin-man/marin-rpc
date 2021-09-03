@@ -11,5 +11,12 @@
 
     <artifactId>rpc-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.manman</groupId>
+            <artifactId>rpc-assem</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -20,21 +20,22 @@ import java.util.jar.JarFile;
  * @Description 扫描路径下所有的文件名的工具类
  * @Date 2021/8/26
  */
+
 @Slf4j
 public class PackageScanUtils {
     // 获取 main 方法中
     public static String getStackTrace() {
         StackTraceElement[] stack = new Throwable().getStackTrace();
-        return stack[stack.length - 1].getClassName();
+        return stack[stack.length - 1].getClassName();    // 获取方法栈的栈顶信息：RPCServer 的 main 方法
     }
 
     public static Set<Class<?>> getClasses(String packageName) {
         Set<Class<?>> classes = new LinkedHashSet<>();
-        boolean recursive = true;
-        String packageDirName = packageName.replace('.', '/');
+        boolean recursive = true;      // 是否递归查找文件
+        String packageDirName = packageName.replace('.', '/');  // 将包路径格式转为目录路径格式 com/manman/rpc
         Enumeration<URL> dirs;
         try {
-            dirs = Thread.currentThread().getContextClassLoader().getResources(packageName);
+            dirs = Thread.currentThread().getContextClassLoader().getResources(packageDirName);
             // 循环下去
             while (dirs.hasMoreElements()) {
                 // 获取下一个元素

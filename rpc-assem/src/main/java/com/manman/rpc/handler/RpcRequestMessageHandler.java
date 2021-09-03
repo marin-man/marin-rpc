@@ -1,11 +1,12 @@
 package com.manman.rpc.handler;
 
-import com.manman.rpc.factory.ServiceFactory;
+import com.manman.rpc.factory.ServerFactory;
 import com.manman.rpc.message.RpcRequestMessage;
 import com.manman.rpc.message.RpcResponseMessage;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.util.ReferenceCountUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.InvocationTargetException;
@@ -28,14 +29,18 @@ public class RpcRequestMessageHandler extends SimpleChannelInboundHandler<RpcReq
         Object result;
         try {
             // 通过名称从工厂获取本地注解了 @RpcServer 的实例
-            Object service = ServiceFactory.serviceFactory.get(message.getInterfaceName());
+            Object service = ServerFactory.serviceFactory.get(message.getInterfaceName());
             // 根据方法名、参数，反射获取方法
             Method method = service.getClass().getMethod(message.getMethodName(), message.getParameterTypes());
             // 通过具体参数信息来调用此方法
             result = method.invoke(service, message.getParameterValue());
+            responseMessage.setReturnValue(result);
         } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
             log.warn("远程调用出错：{}", e.getCause().getMessage());
             responseMessage.setExceptionValue(new Exception("远程调用出错：" + e.getCause().getMessage()));
+        } finally {
+            ctx.writeAndFlush(responseMessage);
+            ReferenceCountUtil.release(message);
         }
     }
 }

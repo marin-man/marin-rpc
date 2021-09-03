@@ -52,13 +52,13 @@ public class RpcClientManager {
 
     static {
         bootstrap = new Bootstrap();
-        group = new NioEventLoopGroup();
         channels = new ConcurrentHashMap<>();
         PROMISES = new ConcurrentHashMap<Integer, Promise<Object>>();
         initChannel();
     }
 
     public RpcClientManager() {
+        this.group = new NioEventLoopGroup();
         this.serverDiscovery = new NacosServerDiscovery(new RoundRobinRule());
     }
 

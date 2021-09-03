@@ -2,31 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b90386c6-07a2-47ff-a5f0-9e89aff76443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcClientManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/annotation/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/annotation/RpcServerScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServerScan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/config/RpcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/config/RpcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/factory/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/factory/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/HeartBeatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/HeartBeatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/HeartBeatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/HeartBeatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/PingMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/PingMessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/RpcRequestMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/RpcRequestMessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/handler/RpcResponseMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/RpcResponseMessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/manager/RpcClientManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/manager/RpcServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcServiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/PingMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/PingMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/PongMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/PongMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/RpcRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/RpcRequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/message/RpcResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/message/RpcResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/protocol/MessageCodecSharable.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/protocol/MessageCodecSharable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/protocol/ProtocolFrameDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/protocol/ProtocolFrameDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/serialize/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/serialize/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/rpc/utils/PackageScanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/utils/PackageScanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/src/main/java/com/manman/rpc/api/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/src/main/java/com/manman/rpc/api/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/src/main/java/com/manman/rpc/api/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/src/main/java/com/manman/rpc/api/service/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/src/main/java/com/manman/rpc/api/service/NbServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/src/main/java/com/manman/rpc/api/service/NbServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServerScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/annotation/RpcServerScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/factory/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/factory/ServerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/RpcRequestMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/handler/RpcRequestMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/manager/RpcServiceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/register/NacosUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/register/NacosUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/utils/PackageScanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/utils/PackageScanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-server/src/main/java/NettyServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-server/src/main/java/NettyServerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +53,54 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\网页\mini-rpc\rpc-assem" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.NettyServerApplication">
+    <configuration name="NettyClientApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.manman.rpc.NettyClientApplication" />
+      <module name="rpc-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="NettyServerApplication" />
+      <module name="rpc-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manman.rpc.RpcServer" />
+      <module name="rpc-assem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manman.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NettyClientApplication" />
+      <item itemvalue="Application.NettyServerApplication" />
+      <item itemvalue="Application.RpcServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RpcServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,7 +113,11 @@
       <option name="presentableId" value="Default" />
       <updated>1629965264309</updated>
       <workItem from="1629965267017" duration="10250000" />
-      <workItem from="1630220237683" duration="5320000" />
+      <workItem from="1630220237683" duration="6169000" />
+      <workItem from="1630308284625" duration="6337000" />
+      <workItem from="1630655008618" duration="535000" />
+      <workItem from="1630655558728" duration="6171000" />
+      <workItem from="1630677822872" duration="5975000" />
     </task>
     <servers />
   </component>
@@ -94,14 +133,79 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="0" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1629966833725" />
+    <state x="552" y="181" key="#Project_Structure" timestamp="1630315086653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630315086653" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630225989547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1630225989547" />
     <state x="306" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1630225241792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1630225241792" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1630220277275">
+    <state x="498" y="199" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1630225980658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630220277275" />
+    <state x="498" y="199" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1630225980658" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1630326142971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="211" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630326142971" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630226123594" />
+    <state width="1493" height="323" key="GridCell.Tab.0.bottom" timestamp="1630683816502">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730450" />
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250420" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630226457182" />
+    <state width="1493" height="323" key="GridCell.Tab.0.bottom/0.24.1536.840@0.24.1536.840" timestamp="1630683816502" />
+    <state width="1493" height="323" key="GridCell.Tab.0.center" timestamp="1630683816501">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730449" />
+    <state width="1877" height="435" key="GridCell.Tab.0.center/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250420" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630226457182" />
+    <state width="1493" height="323" key="GridCell.Tab.0.center/0.24.1536.840@0.24.1536.840" timestamp="1630683816501" />
+    <state width="1493" height="323" key="GridCell.Tab.0.left" timestamp="1630683816501">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730449" />
+    <state width="1877" height="435" key="GridCell.Tab.0.left/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250420" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630226457182" />
+    <state width="1493" height="323" key="GridCell.Tab.0.left/0.24.1536.840@0.24.1536.840" timestamp="1630683816501" />
+    <state width="1493" height="323" key="GridCell.Tab.0.right" timestamp="1630683816501">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730449" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250420" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630226457182" />
+    <state width="1493" height="323" key="GridCell.Tab.0.right/0.24.1536.840@0.24.1536.840" timestamp="1630683816501" />
+    <state width="723" height="268" key="GridCell.Tab.1.bottom" timestamp="1630683783381">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730450" />
+    <state width="1877" height="353" key="GridCell.Tab.1.bottom/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250415" />
+    <state width="723" height="268" key="GridCell.Tab.1.bottom/0.24.1536.840@0.24.1536.840" timestamp="1630683783381" />
+    <state width="723" height="268" key="GridCell.Tab.1.center" timestamp="1630683783381">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730450" />
+    <state width="1877" height="353" key="GridCell.Tab.1.center/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250415" />
+    <state width="723" height="268" key="GridCell.Tab.1.center/0.24.1536.840@0.24.1536.840" timestamp="1630683783381" />
+    <state width="723" height="268" key="GridCell.Tab.1.left" timestamp="1630683783381">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730450" />
+    <state width="1877" height="353" key="GridCell.Tab.1.left/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250415" />
+    <state width="723" height="268" key="GridCell.Tab.1.left/0.24.1536.840@0.24.1536.840" timestamp="1630683783381" />
+    <state width="723" height="268" key="GridCell.Tab.1.right" timestamp="1630683783381">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630330730450" />
+    <state width="1877" height="353" key="GridCell.Tab.1.right/-1920.24.1536.840/0.30.1920.1050@0.30.1920.1050" timestamp="1630668250415" />
+    <state width="723" height="268" key="GridCell.Tab.1.right/0.24.1536.840@0.24.1536.840" timestamp="1630683783381" />
     <state x="535" y="67" key="SettingsEditor" timestamp="1630220662379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -122,5 +226,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="834" y="106" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629970303847" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc-assem/src/main/java/com/manman/rpc/register/NacosServerRegistry.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.3.0/nacos-client-1.3.0.jar!/com/alibaba/nacos/client/naming/NacosNamingService.class</url>
+          <line>132</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((CompoundEnumeration)((java.util.Enumeration[])((CompoundEnumeration)dirs).enums)[0]).enums" custom="sun.misc.CompoundEnumeration,java.util.Enumeration[]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

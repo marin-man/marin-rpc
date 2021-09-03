@@ -8,11 +8,11 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @Title: ServiceFactory
  * @Author manman
- * @Description 服务接口注入和发现
+ * @Description 服务接口注入和发现工厂，单例模式
  * @Date 2021/8/26
  */
 @Slf4j
-public class ServiceFactory {
+public class ServerFactory {
 
     /**
      * 保存所有有注解 @RpcService 的集合
@@ -29,7 +29,6 @@ public class ServiceFactory {
         if (serviceFactory.containsKey(serviceName))
             return;
         serviceFactory.put(serviceName, service);
-        log.debug("服务类{}添加进工厂", serviceName);
     }
 
     /**

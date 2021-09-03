@@ -25,7 +25,7 @@ public class NacosUtils {
 
     private static InetSocketAddress address;
 
-    private static final String SERVER_ADDR = "47.107.67.133:8848";
+    private static final String SERVER_ADDR = "localhost:8848";
 
     static {
         namingService = getNacosNamingService();
