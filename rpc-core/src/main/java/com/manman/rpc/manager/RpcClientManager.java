@@ -9,6 +9,7 @@ import com.manman.rpc.protocol.MessageCodecSharable;
 import com.manman.rpc.protocol.ProtocolFrameDecoder;
 import com.manman.rpc.register.nacos.NacosServerDiscovery;
 import com.manman.rpc.register.ServerDiscovery;
+import com.manman.rpc.register.zookeeper.ZkServerDiscovery;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
@@ -59,6 +60,8 @@ public class RpcClientManager {
     public RpcClientManager() {
         if ("nacos".equals(RpcPropertiesConfig.getRegisterType()))
             serverDiscovery = new NacosServerDiscovery(RpcPropertiesConfig.getLoadBalance());
+        if ("zookeeper".equals(RpcPropertiesConfig.getRegisterType()))
+            serverDiscovery = new ZkServerDiscovery(RpcPropertiesConfig.getLoadBalance());
     }
 
     /**

@@ -79,4 +79,14 @@ public abstract class RpcPropertiesConfig {
             return "127.0.0.1";
         return value;
     }
+
+    /**
+     * 获取所在注册中心的节点
+     */
+    public static String getRegisterNode() {
+        String value = properties.getProperty("register.node");
+        if (value == null)
+            return "/mini-rpc";
+        return value;
+    }
 }

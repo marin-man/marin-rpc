@@ -11,6 +11,7 @@ import com.manman.rpc.protocol.MessageCodecSharable;
 import com.manman.rpc.protocol.ProtocolFrameDecoder;
 import com.manman.rpc.register.nacos.NacosServerRegistry;
 import com.manman.rpc.register.ServerRegistry;
+import com.manman.rpc.register.zookeeper.ZkServerRegistry;
 import com.manman.rpc.utils.PackageScanUtils;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
@@ -50,8 +51,9 @@ public class RpcServiceManager {
     public RpcServiceManager() {
         HOST = "localhost";  // 获取此服务 ip 地址
         PORT = RpcPropertiesConfig.getServerPort();  // 获取此服务端口号
-
-        if ("nacos".equals(RpcPropertiesConfig.getRegisterType()))  // 使用 nacos 注册中心
+        if ("zookeeper".equals(RpcPropertiesConfig.getRegisterType()))
+            serverRegistry = new ZkServerRegistry();
+        else
             serverRegistry = new NacosServerRegistry();
 
         // 完成注册 扫描启动类上层的包，遍历所有 target 下的项目路径，找到加了注解的类，注册到 nacos 里

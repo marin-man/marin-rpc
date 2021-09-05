@@ -26,7 +26,7 @@ public class NacosUtils {
 
     private static InetSocketAddress address;
 
-    private static final String SERVER_ADDR = RpcPropertiesConfig.getRegisterAddr();
+    private static final String REGISTER_ADDR = RpcPropertiesConfig.getRegisterAddr();
 
     static {
         namingService = getNacosNamingService();
@@ -38,7 +38,7 @@ public class NacosUtils {
      */
     private static NamingService getNacosNamingService() {
         try {
-            return NamingFactory.createNamingService(SERVER_ADDR);  // 连接 nacos
+            return NamingFactory.createNamingService(REGISTER_ADDR);  // 连接 nacos
         } catch (NacosException e) {
             throw new RuntimeException("连接到 Nacos 时发送错误");
         }
