@@ -13,6 +13,7 @@
         <module>rpc-api</module>
         <module>rpc-client</module>
         <module>rpc-server</module>
+        <module>rpc-client-spring-boot-starter</module>
     </modules>
 
     <properties>

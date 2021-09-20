@@ -72,7 +72,7 @@ public class RpcClientManager {
     public static Channel get(InetSocketAddress inetSocketAddress) {
         String key = inetSocketAddress.toString();
         // 判断是否存在
-        if (channels.containsKey(key)) {
+        if (channels.containsKey(key)) {   // 判断是否有此管道
             Channel channel = channels.get(key);
             if (channel != null && channel.isActive())
                 return channel;
@@ -102,8 +102,8 @@ public class RpcClientManager {
      * @param msg
      */
     public void sendRpcRequest(RpcRequestMessage msg) throws NacosException {
-        InetSocketAddress service = serverDiscovery.getService(msg.getInterfaceName());
-        Channel channel = get(service);
+        InetSocketAddress service = serverDiscovery.getService(msg.getInterfaceName());  // 从注册中心获取服务地址
+        Channel channel = get(service);   // 根据服务地址生成管道流
         if (!channel.isActive() || !channel.isRegistered()) {
             group.shutdownGracefully();
             return;
@@ -112,6 +112,7 @@ public class RpcClientManager {
             if (future.isSuccess())
                 log.debug("客户端发送消息成功");
         });
+        channel.close();    // 关闭管道
     }
 
     /**

@@ -49,7 +49,7 @@ public class ZookeeperUtils {
         }
 
         // 创建 address 节点（临时）
-        String addressPath = servicePath + "address-";
+        String addressPath = servicePath + "/address-";
         String addressNode = zkClient.createEphemeralSequential(addressPath, address);
         log.debug("创建 address 节点 {}", addressNode);
     }
