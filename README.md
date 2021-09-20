@@ -1,4 +1,6 @@
 # Mini-RPC
+[![Release Version](https://img.shields.io/badge/release-1.0.0-red.svg)](https://github.com/manmandm/mini-rpc/releases/tag/1.0.0-release) 
+
 
 ## Overview
 Mini-RPC 是一款高可用的 java RPC 框架。

@@ -17,7 +17,7 @@ public class ServerFactory {
     /**
      * 保存所有有注解 @RpcService 的集合
      */
-    public static final Map<String, Object> factofry = new ConcurrentHashMap<>();
+    public static final Map<String, Object> factory = new ConcurrentHashMap<>();
 
     /**
      * 添加已注解的类进入工厂
@@ -26,9 +26,9 @@ public class ServerFactory {
      * @param <T>
      */
     public static <T> void addServiceProvider(T service, String serviceName) {
-        if (factofry.containsKey(serviceName))
+        if (factory.containsKey(serviceName))
             return;
-        factofry.put(serviceName, service);
+        factory.put(serviceName, service);
     }
 
     /**
@@ -37,7 +37,7 @@ public class ServerFactory {
      * @return
      */
     public static Object getServiceProvider(String serviceName) {
-        Object service = factofry.get(serviceName);
+        Object service = factory.get(serviceName);
         if (service == null)
             throw new RuntimeException("未发现服务");
         return service;

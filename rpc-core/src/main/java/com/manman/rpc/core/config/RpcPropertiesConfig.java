@@ -1,4 +1,4 @@
-package com.manman.rpc.config;
+package com.manman.rpc.core.config;
 
 import com.manman.rpc.loadBalance.LoadBalancer;
 import com.manman.rpc.serialize.Serializer;
@@ -6,15 +6,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
-
 /**
- * @Title: RpcConfig
- * @Author manman
- * @Description 获取配置类信息，实现在配置类中绑定基本信息
- * @Date 2021/8/26
+ * @Title: RpcRropertiesConfig
+ * @Author manman 配置扫描类
+ * @Description
+ * @Date 2021/9/20
  */
 @Slf4j
 @Configuration

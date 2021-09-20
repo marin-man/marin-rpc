@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <artifactId>rpc-assem</artifactId>
+            <artifactId>rpc-core</artifactId>
             <groupId>com.manman</groupId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
