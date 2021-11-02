@@ -15,7 +15,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20M1F6EDjhACimdxwWE5beKl0X7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -44,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635839535696</updated>
       <workItem from="1635839539383" duration="6690000" />
-      <workItem from="1635852493720" duration="4713000" />
+      <workItem from="1635852493720" duration="5309000" />
     </task>
     <servers />
   </component>
@@ -74,6 +79,10 @@
     </state>
     <state x="238" y="170" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1635850568216" />
     <state x="190" y="156" key="#com.intellij.ide.util.MemberChooser/0.24.1536.840@0.24.1536.840" timestamp="1635856636617" />
+    <state x="933" y="205" key="FileChooserDialogImpl" timestamp="1635857953477">
+      <screen x="0" y="24" width="1536" height="840" />
+    </state>
+    <state x="933" y="205" key="FileChooserDialogImpl/0.24.1536.840@0.24.1536.840" timestamp="1635857953477" />
     <state x="258" y="171" key="new project wizard" timestamp="1635856810460">
       <screen x="0" y="24" width="1536" height="840" />
     </state>
