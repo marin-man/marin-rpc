@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpc-server-spring-boot-starter" />
+        <module name="rpc-test-provider" />
+        <module name="rpc-core" />
+        <module name="rpc-test-api" />
+        <module name="rpc-test-consumer" />
+        <module name="rpc-client-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="marin-rpc" options="-parameters" />
+      <module name="rpc-client-spring-boot-starter" options="-parameters" />
+      <module name="rpc-core" options="-parameters" />
+      <module name="rpc-server-spring-boot-starter" options="-parameters" />
+      <module name="rpc-test-api" options="-parameters" />
+      <module name="rpc-test-consumer" options="-parameters" />
+      <module name="rpc-test-provider" options="-parameters" />
+    </option>
+  </component>
+</project>
