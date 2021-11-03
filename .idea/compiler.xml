@@ -8,10 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rpc-server-spring-boot-starter" />
         <module name="rpc-test-provider" />
-        <module name="rpc-core" />
-        <module name="rpc-test-api" />
-        <module name="rpc-test-consumer" />
         <module name="rpc-client-spring-boot-starter" />
+        <module name="rpc-core" />
+        <module name="rpc-test-consumer" />
+        <module name="rpc-test-api" />
       </profile>
     </annotationProcessing>
   </component>
